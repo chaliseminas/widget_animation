@@ -1,6 +1,6 @@
 name: widget_animation
 description: This is the package for widget display animation. This package is for single or multiple widgets list.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/chaliseminas/widget_animation
 
 environment:
