@@ -20,19 +20,9 @@ This is the package for widget display animation. This package is for single or 
 
 ## Getting started
 
-widget_animation: ^0.0.1
+widget_animation: ^0.0.2
 
 ## Usage
-
-SingleWidgetAnimation(
-animationDuration: const Duration(seconds: 2),
-delayStart: const Duration(seconds: 6),
-child: Text(
-'Slow Motion',
-key: const Key('Slow motion'),
-style: style,
-),
-),
 
 ```dart
 SingleWidgetAnimation(
