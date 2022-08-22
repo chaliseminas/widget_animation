@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:widget_animation/enums/enums.dart';
 import 'package:widget_animation/widget_animation.dart';
 
 class ListWidgetAnimation extends StatefulWidget {
