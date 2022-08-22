@@ -20,22 +20,29 @@ This is the package for widget display animation. This package is for single or 
 
 ## Getting started
 
-widget_animation: ^1.0.0
+widget_animation: ^0.0.1
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+SingleWidgetAnimation(
+animationDuration: const Duration(seconds: 2),
+delayStart: const Duration(seconds: 6),
+child: Text(
+'Slow Motion',
+key: const Key('Slow motion'),
+style: style,
+),
+),
 
 ```dart
 SingleWidgetAnimation(
-  child: Text(
-    'Widget 2 Animation',
-  ),
-),```
+  animationDuration: const Duration(seconds: 2),
+  delayStart: const Duration(seconds: 6),
+  child: child
+);
+```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+This package is for the animation to display text, images or other widgets. This package is usable for
+single widget as well as list of widgets.
