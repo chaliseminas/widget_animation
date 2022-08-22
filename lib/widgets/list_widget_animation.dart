@@ -3,12 +3,25 @@ import 'package:widget_animation/widget_animation.dart';
 
 class ListWidgetAnimation extends StatefulWidget {
 
+  ///widgets list to be animated
   final List<Widget> children;
+
+  ///offset value for animation
   final double offset;
+
+  ///animation curve type
   final Curve curve;
+
+  ///direction be animated
   final Direction direction;
+
+  ///delay for animation
   final Duration delayBetween;
+
+  ///duration for animation
   final Duration animationDuration;
+
+  ///enable lazy loading
   final bool enableLazyLoading;
 
   ListWidgetAnimation({

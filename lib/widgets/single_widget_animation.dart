@@ -5,13 +5,28 @@ import 'package:widget_animation/enums/enums.dart';
 
 class SingleWidgetAnimation extends StatefulWidget {
 
+  ///widget to be animated
   final Widget child;
+
+  ///animation offset
   final double offset;
+
+  ///animation curve type
   final Curve curve;
+
+  ///direction for animation
   final Direction direction;
+
+  ///widget to start in delay
   final Duration delayStart;
+
+  ///animation duration
   final Duration animationDuration;
+
+  ///fade begin value
   final double fadeBegin;
+
+  ///slide animation enable disable
   final bool enableSlideAnimation;
   final Animation<double>? fadeAnimation;
 
